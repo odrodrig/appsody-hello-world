@@ -9,7 +9,7 @@ spec:
       revisionTemplate:
         spec:
           container:
-            image: docker-registry.default.svc:5000/appsody-project/appsody-hello-world
+            image: index.docker.io/odrodrig/tekton-test
             imagePullPolicy: Always
             ports:
             - containerPort: 9080
